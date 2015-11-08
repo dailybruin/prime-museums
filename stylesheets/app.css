@@ -9741,7 +9741,7 @@ th.hide-for-touch {
   width: 80%;
   height: 500px;
   margin: auto;
-  border: 5px solid #000;
+  border: 5px solid #FAFAFA;
 }
 
 /* line 52, ../scss/app.scss */

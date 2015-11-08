@@ -2,7 +2,7 @@
 // foundation.zurb.com
 // Licensed under MIT Open Source
 
-//
+@import url(https://fonts.googleapis.com/css?family=Questrial);
 
 // Table of Contents
 // Foundation Settings
@@ -87,7 +87,7 @@ $include-html-global-classes: $include-html-classes;
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
 // We use these to define default font stacks
- $font-family-sans-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+ $font-family-sans-serif: "Questrial", Helvetica, Roboto, Arial, sans-serif;
  $font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
  $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 
@@ -114,10 +114,11 @@ $include-html-global-classes: $include-html-classes;
  $oil         : #333333;
  $jet         : #222222;
  $black       : #000000;
- $light-blue  : #00BFFF;
+ $salmon	  : #FA8072;
+ $salmon-hover: #A77E7A;
 
 // We use these as default colors throughout
- $primary-color: #008CBA;
+ $primary-color: #FA8072;
  $secondary-color: #e7e7e7;
  $alert-color: #f04124;
  $success-color: #43AC6A;
@@ -1404,7 +1405,7 @@ $include-html-global-classes: $include-html-classes;
 // $include-html-top-bar-classes: $include-html-classes;
 
 // Background color for the top bar
- $topbar-bg-color: $light-blue;
+ $topbar-bg-color: $salmon;
  $topbar-bg: $topbar-bg-color;
 
 // Height and margin
@@ -1412,8 +1413,8 @@ $include-html-global-classes: $include-html-classes;
  $topbar-margin-bottom: 0;
 
 // Controlling the styles for the title in the top bar
-// $topbar-title-weight: $font-weight-normal;
-// $topbar-title-font-size: rem-calc(17);
+ $topbar-title-weight: $font-weight-normal;
+ $topbar-title-font-size: rem-calc(20);
 
 // Set the link colors and styles for top-level nav
  $topbar-link-color: $white;
@@ -1422,10 +1423,10 @@ $include-html-global-classes: $include-html-classes;
  $topbar-link-color-active-hover: $white;
  $topbar-link-weight: $font-weight-normal;
  $topbar-link-font-size: rem-calc(13);
- $topbar-link-hover-lightness: -10%; // Darken by 10%
+ //$topbar-link-hover-lightness: -10%; // Darken by 10%
  $topbar-link-bg: $topbar-bg;
- $topbar-link-bg-hover: $jet;
- $topbar-link-bg-color-hover: $charcoal;
+ $topbar-link-bg-hover: scale-color($primary-color, $lightness: -14%);
+ $topbar-link-bg-color-hover: $white;
  $topbar-link-bg-active: $primary-color;
  $topbar-link-bg-active-hover: scale-color($primary-color, $lightness: -14%);
  $topbar-link-font-family: $body-font-family;

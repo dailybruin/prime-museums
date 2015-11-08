@@ -39,10 +39,6 @@
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
 
-#header {
-  min-height: 400px;
-  position:relative;
-}
 
 #map{
   width: 80%;
@@ -54,7 +50,9 @@
 
 #nav{
 	a{
-		font-family: 'Questial', Helvetica, sans-serif;
+		font-family: 'Questrial', Helvetica, sans-serif;
+    color: #fff;
+    font-size: 20px;
 	}
 }
 
@@ -63,7 +61,7 @@ h1
   font-size: 36px;
   text-align: center;
   font-family: 'Questrial', Helvetica, sans-serif;
-  margin-top: 5%;
+  margin-top: 2%;
 
 }
 

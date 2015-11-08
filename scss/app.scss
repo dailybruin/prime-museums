@@ -39,7 +39,9 @@
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
 
-
+body{
+  background-color:#FAFAFA;
+}
 #map{
   width: 80%;
   height: 500px;
@@ -48,13 +50,6 @@
 
 }
 
-#nav{
-	a{
-		font-family: 'Questrial', Helvetica, sans-serif;
-    color: #fff;
-    font-size: 20px;
-	}
-}
 
 h1
 {
@@ -72,6 +67,20 @@ h2 {
   margin: auto;
   padding-bottom:3%;
 }
+
+.gallery { list-style: none; padding: 50px; margin: 0; }
+.gallery:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.gallery li { float: left; width: 20%; }
+.gallery li a { display: block; margin: 10px; }
+.gallery li img { display: block; width: 100%; height: auto; }
+
+.contain-to-grid
+{
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+       -moz-box-shadow: 0 8px 6px -6px #999;
+            box-shadow: 0 8px 6px -6px #999;
+}
+
 
 
 

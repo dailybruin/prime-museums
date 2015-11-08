@@ -19,13 +19,36 @@
       }
       google.maps.event.addDomListener(window, 'load', initialize);
     </script>
+
+    <!--Photoswipe stuff -->
+    <link href="3.0.3/photoswipe.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="3.0.3/lib/klass.min.js"></script>
+    <script type="text/javascript" src="3.0.3/code.photoswipe-3.0.3.min.js"></script>
+
+    <script type="text/javascript">
+
+      (function(window, PhotoSwipe){
+      
+        document.addEventListener('DOMContentLoaded', function(){
+        
+          var
+            options = {},
+            instance = PhotoSwipe.attach( window.document.querySelectorAll('#Gallery a'), options );
+        
+        }, false);
+        
+        
+      }(window, window.Code.PhotoSwipe));
+      
+    </script>
+
   </head>
   <body>
           <div class="contain-to-grid sticky">
            <nav id="nav" class="top-bar" data-topbar role="navigation" data-options="sticky_on:[medium, large]">
             <ul class="title-area">
               <li class="name">
-                <h1><a href="#">Prime Museum Page</a></h1>
+                <h1><a href="Home">Prime Museum Page</a></h1>
               </li>
               <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
             </ul>
@@ -48,7 +71,7 @@
              
                 <div class="content active" id="home">
                   
-                  <h1> Title about Museums </h1>
+                  <h1> Title </h1>
                     <h2>Los Angeles is home to about a hundred museums, from the grand Getty Museum. Paul Getty Museum is the name of the museum that has two locations, one of which is in West LA and is the Getty Center in West Los Angeles to the quaint Bunny Museum, located in the home of a Pasadena coupleok link 1. Two Daily Bruin staffers decided to explore four of the lesser-known museums around town, each with its own specific mission and style. Some are gory and some are adorable, but all of them add a special flavor to the museum subculture of the city.</h2>
                   <div id="map"></div>
                 </div>
@@ -58,12 +81,50 @@
                   <h3>Museum 1</h3>
                       <h4>Put video here O:!</h4>
                       <p>Text about museum~. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.Also put gallery</p>
+
+                      <ul id="Gallery" class="gallery">
+                        <li><a href="3.0.3/examples/images/full-museum-1/001.jpg"><img src="3.0.3/examples/images/thumb-museum-1/001.jpg" alt="Image 001" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-1/002.jpg"><img src="3.0.3/examples/images/thumb-museum-1/002.jpg" alt="Image 002" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-1/003.jpg"><img src="3.0.3/examples/images/thumb-museum-1/003.jpg" alt="Image 003" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-1/004.jpg"><img src="3.0.3/examples/images/thumb-museum-1/004.jpg" alt="Image 004" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-1/005.jpg"><img src="3.0.3/examples/images/thumb-museum-1/005.jpg" alt="Image 005" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-1/006.jpg"><img src="3.0.3/examples/images/thumb-museum-1/006.jpg" alt="Image 006" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-1/007.jpg"><img src="3.0.3/examples/images/thumb-museum-1/007.jpg" alt="Image 007" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-1/008.jpg"><img src="3.0.3/examples/images/thumb-museum-1/008.jpg" alt="Image 008" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-1/009.jpg"><img src="3.0.3/examples/images/thumb-museum-1/009.jpg" alt="Image 009" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-1/010.jpg"><img src="3.0.3/examples/images/thumb-museum-1/010.jpg" alt="Image 010" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-1/011.jpg"><img src="3.0.3/examples/images/thumb-museum-1/011.jpg" alt="Image 011" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-1/012.jpg"><img src="3.0.3/examples/images/thumb-museum-1/012.jpg" alt="Image 012" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-1/013.jpg"><img src="3.0.3/examples/images/thumb-museum-1/013.jpg" alt="Image 013" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-1/014.jpg"><img src="3.0.3/examples/images/thumb-museum-1/014.jpg" alt="Image 014" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-1/015.jpg"><img src="3.0.3/examples/images/thumb-museum-1/015.jpg" alt="Image 015" /></a></li>
+                      </ul>
+
                 </div>
             
                 <div class="content" id="museum-2">
                   <h3>Museum 2</h3>
                       <h4>Put video here O:!</h4>
                       <p>Text about museum~. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.Also put gallery</p>
+
+                      <ul id="Gallery" class="gallery">
+                        <li><a href="3.0.3/examples/images/full-museum-2/001.jpg"><img src="3.0.3/examples/images/thumb-museum-2/001.jpg" alt="Image 001" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-2/002.jpg"><img src="3.0.3/examples/images/thumb-museum-2/002.jpg" alt="Image 002" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-2/003.jpg"><img src="3.0.3/examples/images/thumb-museum-2/003.jpg" alt="Image 003" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-2/004.jpg"><img src="3.0.3/examples/images/thumb-museum-2/004.jpg" alt="Image 004" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-2/005.jpg"><img src="3.0.3/examples/images/thumb-museum-2/005.jpg" alt="Image 005" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-2/006.jpg"><img src="3.0.3/examples/images/thumb-museum-2/006.jpg" alt="Image 006" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-2/007.jpg"><img src="3.0.3/examples/images/thumb-museum-2/007.jpg" alt="Image 007" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-2/008.jpg"><img src="3.0.3/examples/images/thumb-museum-2/008.jpg" alt="Image 008" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-2/009.jpg"><img src="3.0.3/examples/images/thumb-museum-2/009.jpg" alt="Image 009" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-2/010.jpg"><img src="3.0.3/examples/images/thumb-museum-2/010.jpg" alt="Image 010" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-2/011.jpg"><img src="3.0.3/examples/images/thumb-museum-2/011.jpg" alt="Image 011" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-2/012.jpg"><img src="3.0.3/examples/images/thumb-museum-2/012.jpg" alt="Image 012" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-2/013.jpg"><img src="3.0.3/examples/images/thumb-museum-2/013.jpg" alt="Image 013" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-2/014.jpg"><img src="3.0.3/examples/images/thumb-museum-2/014.jpg" alt="Image 014" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-2/015.jpg"><img src="3.0.3/examples/images/thumb-museum-2/015.jpg" alt="Image 015" /></a></li>
+                      </ul>
+
                 </div>
             
             
@@ -73,15 +134,55 @@
                   
                       <h4>Put video here O:!</h4>
                       <p>Text about museum~. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.Also put gallery</p>
+
+                     
+                      <ul id="Gallery" class="gallery">
+                        <li><a href="3.0.3/examples/images/full-museum-3/001.jpg"><img src="3.0.3/examples/images/thumb-museum-3/001.jpg" alt="Image 001" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-3/002.jpg"><img src="3.0.3/examples/images/thumb-museum-3/002.jpg" alt="Image 002" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-3/003.jpg"><img src="3.0.3/examples/images/thumb-museum-3/003.jpg" alt="Image 003" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-3/004.jpg"><img src="3.0.3/examples/images/thumb-museum-3/004.jpg" alt="Image 004" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-3/005.jpg"><img src="3.0.3/examples/images/thumb-museum-3/005.jpg" alt="Image 005" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-3/006.jpg"><img src="3.0.3/examples/images/thumb-museum-3/006.jpg" alt="Image 006" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-3/007.jpg"><img src="3.0.3/examples/images/thumb-museum-3/007.jpg" alt="Image 007" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-3/008.jpg"><img src="3.0.3/examples/images/thumb-museum-3/008.jpg" alt="Image 008" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-3/009.jpg"><img src="3.0.3/examples/images/thumb-museum-3/009.jpg" alt="Image 009" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-3/010.jpg"><img src="3.0.3/examples/images/thumb-museum-3/010.jpg" alt="Image 010" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-3/011.jpg"><img src="3.0.3/examples/images/thumb-museum-3/011.jpg" alt="Image 011" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-3/012.jpg"><img src="3.0.3/examples/images/thumb-museum-3/012.jpg" alt="Image 012" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-3/013.jpg"><img src="3.0.3/examples/images/thumb-museum-3/013.jpg" alt="Image 013" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-3/014.jpg"><img src="3.0.3/examples/images/thumb-museum-3/014.jpg" alt="Image 014" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-3/015.jpg"><img src="3.0.3/examples/images/thumb-museum-3/015.jpg" alt="Image 015" /></a></li>
+                      </ul>
+
+
                   </div>
              
             
               
                 <div class="content" id="museum-4">
                   <h3>Museum 4</h3>
-                  
                       <h4>Put video here O:!</h4>
                       <p>Text about museum~. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.Also put gallery</p>
+
+                     
+                      <ul id="Gallery" class="gallery">
+                        <li><a href="3.0.3/examples/images/full-museum-4/001.jpg"><img src="3.0.3/examples/images/thumb-museum-4/001.jpg" alt="Image 001" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-4/002.jpg"><img src="3.0.3/examples/images/thumb-museum-4/002.jpg" alt="Image 002" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-4/003.jpg"><img src="3.0.3/examples/images/thumb-museum-4/003.jpg" alt="Image 003" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-4/004.jpg"><img src="3.0.3/examples/images/thumb-museum-4/004.jpg" alt="Image 004" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-4/005.jpg"><img src="3.0.3/examples/images/thumb-museum-4/005.jpg" alt="Image 005" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-4/006.jpg"><img src="3.0.3/examples/images/thumb-museum-4/006.jpg" alt="Image 006" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-4/007.jpg"><img src="3.0.3/examples/images/thumb-museum-4/007.jpg" alt="Image 007" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-4/008.jpg"><img src="3.0.3/examples/images/thumb-museum-4/008.jpg" alt="Image 008" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-4/009.jpg"><img src="3.0.3/examples/images/thumb-museum-4/009.jpg" alt="Image 009" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-4/010.jpg"><img src="3.0.3/examples/images/thumb-museum-4/010.jpg" alt="Image 010" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-4/011.jpg"><img src="3.0.3/examples/images/thumb-museum-4/011.jpg" alt="Image 011" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-4/012.jpg"><img src="3.0.3/examples/images/thumb-museum-4/012.jpg" alt="Image 012" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-4/013.jpg"><img src="3.0.3/examples/images/thumb-museum-4/013.jpg" alt="Image 013" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-4/014.jpg"><img src="3.0.3/examples/images/thumb-museum-4/014.jpg" alt="Image 014" /></a></li>
+                        <li><a href="3.0.3/examples/images/full-museum-4/015.jpg"><img src="3.0.3/examples/images/thumb-museum-4/015.jpg" alt="Image 015" /></a></li>
+                      </ul>
+
                 </div>
 
           </div>

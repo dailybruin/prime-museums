@@ -44,6 +44,7 @@
 
   </head>
   <body>
+    <div class="row">
           <div class="contain-to-grid sticky">
            <nav id="nav" class="top-bar" data-topbar role="navigation" data-options="sticky_on:[medium, large]">
             <ul class="title-area">
@@ -74,6 +75,17 @@
                   <h1> Title </h1>
                     <h2>Los Angeles is home to about a hundred museums, from the grand Getty Museum. Paul Getty Museum is the name of the museum that has two locations, one of which is in West LA and is the Getty Center in West Los Angeles to the quaint Bunny Museum, located in the home of a Pasadena coupleok link 1. Two Daily Bruin staffers decided to explore four of the lesser-known museums around town, each with its own specific mission and style. Some are gory and some are adorable, but all of them add a special flavor to the museum subculture of the city.</h2>
                   <div id="map"></div>
+                  <div class="small-12 medium-12 large-12 columns" id="graphic-map">
+                  <img src="http://dailybruin.com/images/2015/11/fallprime.museum.edit2_.png" usemap="#planetmap">
+
+                  <map name="planetmap">
+                    <area shape="circle" coords="120,500,140" href="#museum-1">
+                    <area shape="circle" coords="750,150,140" href="#museum-2">
+                    <area shape="circle" coords="500,700,140" href="#museum-3">         
+                    <area shape="circle" coords="850,560,140" href="#museum-3">
+                  </map>
+
+                  </div> <!--end of graphic map column-->
                 </div>
               
               
@@ -187,8 +199,15 @@
 
           </div>
 
+    </div> <!--end of row--> 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/jquery.rwdImageMaps.js"></script>
+    <script>
+    $(document).ready(function(e) {
+  $('img[usemap]').rwdImageMaps();
+  });
+    </script>
   </body>
 </html>

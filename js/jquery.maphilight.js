@@ -337,9 +337,9 @@
 	$.fn.maphilight.defaults = {
 		fill: true,
 		fillColor: '000000',
-		fillOpacity: 0.2,
-		stroke: true,
-		strokeColor: 'ff0000',
+		fillOpacity: 0.8,
+		stroke: false,
+		strokeColor: '000000',
 		strokeOpacity: 1,
 		strokeWidth: 1,
 		fade: true,
@@ -354,7 +354,7 @@
 		shadowRadius: 6,
 		shadowColor: '000000',
 		shadowOpacity: 0.8,
-		shadowPosition: 'outside',
+		shadowPosition: 'inside',
 		shadowFrom: false
 	};
 })(jQuery);

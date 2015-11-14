@@ -6622,7 +6622,7 @@ table tr td {
 .tabs dd > a,
 .tabs .tab-title > a {
   display: block;
-  background-color: #EFEFEF;
+  background-color: #FFFFFF;
   color: #222222;
   font-family: "Questrial", Helvetica, Roboto, Arial, sans-serif;
   font-size: 1rem;
@@ -6631,7 +6631,7 @@ table tr td {
 /* line 50, ../bower_components/foundation/scss/foundation/components/_tabs.scss */
 .tabs dd > a:hover,
 .tabs .tab-title > a:hover {
-  background-color: #e1e1e1;
+  background-color: #F9F9F9;
 }
 /* line 55, ../bower_components/foundation/scss/foundation/components/_tabs.scss */
 .tabs dd.active > a,
@@ -8361,7 +8361,7 @@ blockquote p {
 /* line 415, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
 .tab-bar {
   -webkit-backface-visibility: hidden;
-  background: #333333;
+  background: #FFFFFF;
   color: #FFFFFF;
   height: 2.8125rem;
   line-height: 2.8125rem;
@@ -8385,7 +8385,7 @@ blockquote p {
   position: absolute;
   top: 0;
   width: 2.8125rem;
-  border-right: solid 1px #1a1a1a;
+  border-right: solid 1px gray;
   left: 0;
 }
 
@@ -8395,7 +8395,7 @@ blockquote p {
   position: absolute;
   top: 0;
   width: 2.8125rem;
-  border-left: solid 1px #1a1a1a;
+  border-left: solid 1px gray;
   right: 0;
 }
 
@@ -8462,7 +8462,7 @@ blockquote p {
 /* line 448, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
 .left-off-canvas-menu {
   -webkit-backface-visibility: hidden;
-  background: #333333;
+  background: #FFFFFF;
   bottom: 0;
   box-sizing: content-box;
   -webkit-overflow-scrolling: touch;
@@ -8471,7 +8471,7 @@ blockquote p {
   overflow-y: auto;
   position: absolute;
   transition: transform 500ms ease 0s;
-  width: 15.625rem;
+  width: 9.375rem;
   z-index: 1001;
   -webkit-transform: translate3d(-100%, 0, 0);
   -moz-transform: translate3d(-100%, 0, 0);
@@ -8489,7 +8489,7 @@ blockquote p {
 /* line 449, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
 .right-off-canvas-menu {
   -webkit-backface-visibility: hidden;
-  background: #333333;
+  background: #FFFFFF;
   bottom: 0;
   box-sizing: content-box;
   -webkit-overflow-scrolling: touch;
@@ -8498,7 +8498,7 @@ blockquote p {
   overflow-y: auto;
   position: absolute;
   transition: transform 500ms ease 0s;
-  width: 15.625rem;
+  width: 9.375rem;
   z-index: 1001;
   -webkit-transform: translate3d(100%, 0, 0);
   -moz-transform: translate3d(100%, 0, 0);
@@ -8516,7 +8516,7 @@ blockquote p {
 /* line 450, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
 .top-off-canvas-menu {
   -webkit-backface-visibility: hidden;
-  background: #333333;
+  background: #FFFFFF;
   bottom: 0;
   box-sizing: content-box;
   -webkit-overflow-scrolling: touch;
@@ -8525,7 +8525,7 @@ blockquote p {
   overflow-y: auto;
   position: absolute;
   transition: transform 500ms ease 0s;
-  width: 15.625rem;
+  width: 9.375rem;
   z-index: 1001;
   -webkit-transform: translate3d(0, -100%, 0);
   -moz-transform: translate3d(0, -100%, 0);
@@ -8544,7 +8544,7 @@ blockquote p {
 /* line 451, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
 .bottom-off-canvas-menu {
   -webkit-backface-visibility: hidden;
-  background: #333333;
+  background: #FFFFFF;
   bottom: 0;
   box-sizing: content-box;
   -webkit-overflow-scrolling: touch;
@@ -8553,7 +8553,7 @@ blockquote p {
   overflow-y: auto;
   position: absolute;
   transition: transform 500ms ease 0s;
-  width: 15.625rem;
+  width: 9.375rem;
   z-index: 1001;
   -webkit-transform: translate3d(0, 100%, 0);
   -moz-transform: translate3d(0, 100%, 0);
@@ -8590,7 +8590,7 @@ ul.off-canvas-list li label {
 }
 /* line 258, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
 ul.off-canvas-list li a {
-  border-bottom: 1px solid #262626;
+  border-bottom: 1px solid #bfbfbf;
   color: rgba(255, 255, 255, 0.7);
   display: block;
   padding: 0.66667rem;
@@ -8598,20 +8598,20 @@ ul.off-canvas-list li a {
 }
 /* line 264, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
 ul.off-canvas-list li a:hover {
-  background: #242424;
+  background: #snow;
 }
 /* line 267, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
 ul.off-canvas-list li a:active {
-  background: #242424;
+  background: #F9F9F9;
 }
 
 /* line 459, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
 .move-right > .inner-wrap {
-  -webkit-transform: translate3d(15.625rem, 0, 0);
-  -moz-transform: translate3d(15.625rem, 0, 0);
-  -ms-transform: translate(15.625rem, 0);
-  -o-transform: translate3d(15.625rem, 0, 0);
-  transform: translate3d(15.625rem, 0, 0);
+  -webkit-transform: translate3d(9.375rem, 0, 0);
+  -moz-transform: translate3d(9.375rem, 0, 0);
+  -ms-transform: translate(9.375rem, 0);
+  -o-transform: translate3d(9.375rem, 0, 0);
+  transform: translate3d(9.375rem, 0, 0);
 }
 /* line 462, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
 .move-right .exit-off-canvas {
@@ -8638,11 +8638,11 @@ ul.off-canvas-list li a:active {
 
 /* line 466, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
 .move-left > .inner-wrap {
-  -webkit-transform: translate3d(-15.625rem, 0, 0);
-  -moz-transform: translate3d(-15.625rem, 0, 0);
-  -ms-transform: translate(-15.625rem, 0);
-  -o-transform: translate3d(-15.625rem, 0, 0);
-  transform: translate3d(-15.625rem, 0, 0);
+  -webkit-transform: translate3d(-9.375rem, 0, 0);
+  -moz-transform: translate3d(-9.375rem, 0, 0);
+  -ms-transform: translate(-9.375rem, 0);
+  -o-transform: translate3d(-9.375rem, 0, 0);
+  transform: translate3d(-9.375rem, 0, 0);
 }
 /* line 470, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
 .move-left .exit-off-canvas {
@@ -8892,11 +8892,11 @@ ul.off-canvas-list li a:active {
 
 /* line 545, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
 .no-csstransforms .left-off-canvas-menu {
-  left: -15.625rem;
+  left: -9.375rem;
 }
 /* line 546, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
 .no-csstransforms .right-off-canvas-menu {
-  right: -15.625rem;
+  right: -9.375rem;
 }
 /* line 547, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
 .no-csstransforms .top-off-canvas-menu {
@@ -8908,11 +8908,11 @@ ul.off-canvas-list li a:active {
 }
 /* line 550, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
 .no-csstransforms .move-left > .inner-wrap {
-  right: 15.625rem;
+  right: 9.375rem;
 }
 /* line 551, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
 .no-csstransforms .move-right > .inner-wrap {
-  left: 15.625rem;
+  left: 9.375rem;
 }
 /* line 552, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
 .no-csstransforms .move-top > .inner-wrap {
@@ -8927,7 +8927,7 @@ ul.off-canvas-list li a:active {
 .left-submenu {
   -webkit-backface-visibility: hidden;
   -webkit-overflow-scrolling: touch;
-  background: #333333;
+  background: #FFFFFF;
   bottom: 0;
   box-sizing: content-box;
   margin: 0;
@@ -8935,7 +8935,7 @@ ul.off-canvas-list li a:active {
   overflow-y: auto;
   position: absolute;
   top: 0;
-  width: 15.625rem;
+  width: 9.375rem;
   height: 18.75rem;
   z-index: 1002;
   -webkit-transform: translate3d(-100%, 0, 0);
@@ -8956,7 +8956,7 @@ ul.off-canvas-list li a:active {
 }
 /* line 345, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
 .left-submenu .back > a {
-  background: #444;
+  background: #FFFFFF;
   border-bottom: none;
   border-top: 1px solid #5e5e5e;
   color: #999999;
@@ -8967,7 +8967,7 @@ ul.off-canvas-list li a:active {
 }
 /* line 354, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
 .left-submenu .back > a:hover {
-  background: #303030;
+  background: #b3b3b3;
   border-bottom: none;
   border-top: 1px solid #5e5e5e;
 }
@@ -8990,7 +8990,7 @@ ul.off-canvas-list li a:active {
 .right-submenu {
   -webkit-backface-visibility: hidden;
   -webkit-overflow-scrolling: touch;
-  background: #333333;
+  background: #FFFFFF;
   bottom: 0;
   box-sizing: content-box;
   margin: 0;
@@ -8998,7 +8998,7 @@ ul.off-canvas-list li a:active {
   overflow-y: auto;
   position: absolute;
   top: 0;
-  width: 15.625rem;
+  width: 9.375rem;
   height: 18.75rem;
   z-index: 1002;
   -webkit-transform: translate3d(100%, 0, 0);
@@ -9019,7 +9019,7 @@ ul.off-canvas-list li a:active {
 }
 /* line 345, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
 .right-submenu .back > a {
-  background: #444;
+  background: #FFFFFF;
   border-bottom: none;
   border-top: 1px solid #5e5e5e;
   color: #999999;
@@ -9030,7 +9030,7 @@ ul.off-canvas-list li a:active {
 }
 /* line 354, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
 .right-submenu .back > a:hover {
-  background: #303030;
+  background: #b3b3b3;
   border-bottom: none;
   border-top: 1px solid #5e5e5e;
 }
@@ -9053,7 +9053,7 @@ ul.off-canvas-list li a:active {
 .top-submenu {
   -webkit-backface-visibility: hidden;
   -webkit-overflow-scrolling: touch;
-  background: #333333;
+  background: #FFFFFF;
   bottom: 0;
   box-sizing: content-box;
   margin: 0;
@@ -9061,7 +9061,7 @@ ul.off-canvas-list li a:active {
   overflow-y: auto;
   position: absolute;
   top: 0;
-  width: 15.625rem;
+  width: 9.375rem;
   height: 18.75rem;
   z-index: 1002;
   -webkit-transform: translate3d(0, -100%, 0);
@@ -9083,7 +9083,7 @@ ul.off-canvas-list li a:active {
 }
 /* line 345, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
 .top-submenu .back > a {
-  background: #444;
+  background: #FFFFFF;
   border-bottom: none;
   border-top: 1px solid #5e5e5e;
   color: #999999;
@@ -9094,7 +9094,7 @@ ul.off-canvas-list li a:active {
 }
 /* line 354, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
 .top-submenu .back > a:hover {
-  background: #303030;
+  background: #b3b3b3;
   border-bottom: none;
   border-top: 1px solid #5e5e5e;
 }
@@ -9111,7 +9111,7 @@ ul.off-canvas-list li a:active {
 .bottom-submenu {
   -webkit-backface-visibility: hidden;
   -webkit-overflow-scrolling: touch;
-  background: #333333;
+  background: #FFFFFF;
   bottom: 0;
   box-sizing: content-box;
   margin: 0;
@@ -9119,7 +9119,7 @@ ul.off-canvas-list li a:active {
   overflow-y: auto;
   position: absolute;
   top: 0;
-  width: 15.625rem;
+  width: 9.375rem;
   height: 18.75rem;
   z-index: 1002;
   -webkit-transform: translate3d(0, 100%, 0);
@@ -9141,7 +9141,7 @@ ul.off-canvas-list li a:active {
 }
 /* line 345, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
 .bottom-submenu .back > a {
-  background: #444;
+  background: #FFFFFF;
   border-bottom: none;
   border-top: 1px solid #5e5e5e;
   color: #999999;
@@ -9152,7 +9152,7 @@ ul.off-canvas-list li a:active {
 }
 /* line 354, ../bower_components/foundation/scss/foundation/components/_offcanvas.scss */
 .bottom-submenu .back > a:hover {
-  background: #303030;
+  background: #b3b3b3;
   border-bottom: none;
   border-top: 1px solid #5e5e5e;
 }
@@ -9744,12 +9744,11 @@ body {
 /* line 46, ../scss/app.scss */
 h1 {
   font-size: 36px;
-  text-align: center;
   font-family: 'Questrial', Helvetica, sans-serif;
-  margin-top: 2%;
+  text-align: center;
 }
 
-/* line 55, ../scss/app.scss */
+/* line 52, ../scss/app.scss */
 h2 {
   font-size: 18px;
   font-family: 'Questrial', Helvetica, sans-serif;
@@ -9758,14 +9757,14 @@ h2 {
   padding-bottom: 3%;
 }
 
-/* line 63, ../scss/app.scss */
+/* line 60, ../scss/app.scss */
 .gallery {
   list-style: none;
   padding: 50px;
   margin: 0;
 }
 
-/* line 64, ../scss/app.scss */
+/* line 61, ../scss/app.scss */
 .gallery:after {
   clear: both;
   content: ".";
@@ -9774,26 +9773,26 @@ h2 {
   visibility: hidden;
 }
 
-/* line 65, ../scss/app.scss */
+/* line 62, ../scss/app.scss */
 .gallery li {
   float: left;
   width: 20%;
 }
 
-/* line 66, ../scss/app.scss */
+/* line 63, ../scss/app.scss */
 .gallery li a {
   display: block;
   margin: 10px;
 }
 
-/* line 67, ../scss/app.scss */
+/* line 64, ../scss/app.scss */
 .gallery li img {
   display: block;
   width: 100%;
   height: auto;
 }
 
-/* line 69, ../scss/app.scss */
+/* line 66, ../scss/app.scss */
 .contain-to-grid {
   -webkit-box-shadow: 0 8px 6px -6px #999;
   -moz-box-shadow: 0 8px 6px -6px #999;

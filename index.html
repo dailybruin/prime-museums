@@ -47,36 +47,50 @@
   </head>
   <body>
     <div class="row">
-          <div class="contain-to-grid sticky">
+
+        <div class="contain-to-grid sticky show-for-medium-up">
            <nav id="nav" class="top-bar" data-topbar role="navigation" data-options="sticky_on:[medium, large]">
-            <ul class="title-area">
-              <li class="name">
-                <h1><a href="Home">Prime Museum Page</a></h1>
-              </li>
-              <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
-            </ul>
-
-            <section class="top-bar-section">
-              <ul class="tabs" data-tab data-options="deep_linking:true">
-                <li class="tab-title active"><a href="#home">Home</a></li>
-                <li class="tab-title"><a href="#museum-1">Angels Attic</a></li>
-                <li class="tab-title"><a href="#museum-2">Museum of Death</a></li>
-                <li class="tab-title"><a href="#museum-3">Museum of Flying</a></li>
-                <li class="tab-title"><a href="#museum-4">Museum of Jurassic Technology</a></li>
+              <ul class="title-area">
+                <li class="name">
+                  <h1><a href="Home"></a></h1>
+                </li>
+                <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
               </ul>
-            </section>
-            </nav>
-            </div>
 
-          
+              <section class="top-bar-section">
+                <ul class="tabs" data-tab data-options="deep_linking:true">
+                  <li class="tab-title active"><a href="#home">Home</a></li>
+                  <li class="tab-title"><a href="#museum-1">Angels Attic</a></li>
+                  <li class="tab-title"><a href="#museum-2">Museum of Death</a></li>
+                  <li class="tab-title"><a href="#museum-3">Museum of Flying</a></li>
+                  <li class="tab-title"><a href="#museum-4">Museum of Jurassic Technology</a></li>
+                </ul>
+              </section>
+            </nav>
+        </div>
+
+        <div class="off-canvas-wrap" data-offcanvas>
+          <div class="inner-wrap">
+
+                <a class="left-off-canvas-toggle show-for-small-only" href="#"><img src="http://s3.amazonaws.com/static.graphemica.com/glyphs/i50s/000/005/715/original/2630-50x50.png?1275296012" /></a>
+
+                <aside class="left-off-canvas-menu">
+                    <ul class="tabs" data-tab data-options="deep_linking:true">
+                      <li class="tab-title active"><a href="#home">Home</a></li>
+                      <li class="tab-title"><a href="#museum-1">Angels Attic</a></li>
+                      <li class="tab-title"><a href="#museum-2">Museum of Death</a></li>
+                      <li class="tab-title"><a href="#museum-3">Museum of Flying</a></li>
+                      <li class="tab-title"><a href="#museum-4">Museum of Jurassic Technology</a></li>
+                    </ul>
+                </aside>
+
 
             <div class="tabs-content">
              
-                <div class="content active" id="home">
+              <div class="content active" id="home">
                   
                   <h1> Title </h1>
                     <h2>Los Angeles is home to about a hundred museums, from the grand Getty Museum in West Los Angeles to the quaint Bunny Museum, located in the home of a Pasadena couple. Two Daily Bruin staffers decided to explore four of the lesser-known museums around town, each with its own specific mission and style. Some are gory and some are adorable, but all of them add a special flavor to the museum subculture of the city.</h2>
-                  <div id="map"></div>
                   <div class="small-12 medium-12 large-12 columns" id="graphic-map">
                   <img src="http://dailybruin.com/images/2015/11/fallprime.museum.edit2_.png" id="graphic-image" usemap="#planetmap">
 
@@ -90,7 +104,7 @@
                   </map>
 
                   </div> <!--end of graphic map column-->
-                </div>
+              </div>
               
               
                 <div class="content" id="museum-1">
@@ -300,11 +314,11 @@
                         <li><a href="http://dailybruin.com/images/2015/11/AYU_1722.jpg"><img src="http://dailybruin.com/images/2015/11/AYU_1722-300x184.jpg" alt="Image 016" /></a></li>
                       </ul>
 
-                </div>
-
-          </div>
-
-    </div> <!--end of row--> 
+              </div>
+        </div><!-- End Tabs Content -->
+      </div><!-- Inner Wrap -->
+    </div> <!-- Outer Wrap -->
+  </div> <!--end of row--> 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="js/app.js"></script>

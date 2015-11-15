@@ -1,6 +1,7 @@
 @import "settings";
 @import "foundation";
-
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
+@import url(https://fonts.googleapis.com/css?family=Vollkorn:700italic);
 // Or selectively include components
 // @import
 //   "foundation/components/accordion",
@@ -68,6 +69,107 @@ h2 {
   -webkit-box-shadow: 0 8px 6px -6px #999;
        -moz-box-shadow: 0 8px 6px -6px #999;
             box-shadow: 0 8px 6px -6px #999;
+}
+
+#museum-2
+{
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),url("http://dailybruin.com/images/2015/11/Screen-Shot-2015-11-11-at-3.44.40-PM.png"); 
+  p
+  {
+    color: #fff;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  border: 30px solid #fff;
+}
+
+#museum-1
+{
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),url("http://dailybruin.com/images/2015/11/AYU_0127.jpg");
+  p
+  {
+    color: #fff;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  h3
+  {
+    color:#fdf9e0;
+  }
+  border: 30px solid #fff;
+
+}
+
+#museum-3
+{
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),url("http://dailybruin.com/images/2015/11/AYU_0199.jpg");
+  p
+  {
+    color: #fff;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  h3
+  {
+    color:#fff;
+  }
+  border: 30px solid #fff;
+
+}
+
+#museum-4
+{
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ),url("http://dailybruin.com/images/2015/11/AYU_1537.jpg");
+  p
+  {
+    color: #fff;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  h3
+  {
+    color:#fff;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  border: 30px solid #fff;
+
+}
+
+h3{
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Vollkorn', Helvetica, sans-serif;
+  font-style: italic;
+
+}
+
+p{
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.opening
+{
+  font-size: 24px;
+  width: 95%;
+  padding-top: 10px;
+  font-style: italic;
+  margin: auto;
+  text-align: center;
 }
 
 

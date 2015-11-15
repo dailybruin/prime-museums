@@ -1,4 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Questrial);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
+@import url(https://fonts.googleapis.com/css?family=Vollkorn:700italic);
 /* line 431, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.5.3/";
@@ -9736,19 +9738,19 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/* line 42, ../scss/app.scss */
+/* line 43, ../scss/app.scss */
 body {
   background-color: #FAFAFA;
 }
 
-/* line 46, ../scss/app.scss */
+/* line 47, ../scss/app.scss */
 h1 {
   font-size: 36px;
   font-family: 'Questrial', Helvetica, sans-serif;
   text-align: center;
 }
 
-/* line 52, ../scss/app.scss */
+/* line 53, ../scss/app.scss */
 h2 {
   font-size: 18px;
   font-family: 'Questrial', Helvetica, sans-serif;
@@ -9757,14 +9759,14 @@ h2 {
   padding-bottom: 3%;
 }
 
-/* line 60, ../scss/app.scss */
+/* line 61, ../scss/app.scss */
 .gallery {
   list-style: none;
   padding: 50px;
   margin: 0;
 }
 
-/* line 61, ../scss/app.scss */
+/* line 62, ../scss/app.scss */
 .gallery:after {
   clear: both;
   content: ".";
@@ -9773,28 +9775,115 @@ h2 {
   visibility: hidden;
 }
 
-/* line 62, ../scss/app.scss */
+/* line 63, ../scss/app.scss */
 .gallery li {
   float: left;
   width: 20%;
 }
 
-/* line 63, ../scss/app.scss */
+/* line 64, ../scss/app.scss */
 .gallery li a {
   display: block;
   margin: 10px;
 }
 
-/* line 64, ../scss/app.scss */
+/* line 65, ../scss/app.scss */
 .gallery li img {
   display: block;
   width: 100%;
   height: auto;
 }
 
-/* line 66, ../scss/app.scss */
+/* line 67, ../scss/app.scss */
 .contain-to-grid {
   -webkit-box-shadow: 0 8px 6px -6px #999;
   -moz-box-shadow: 0 8px 6px -6px #999;
   box-shadow: 0 8px 6px -6px #999;
+}
+
+/* line 74, ../scss/app.scss */
+#museum-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://dailybruin.com/images/2015/11/Screen-Shot-2015-11-11-at-3.44.40-PM.png");
+  border: 30px solid #fff;
+}
+/* line 80, ../scss/app.scss */
+#museum-2 p {
+  color: #fff;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+/* line 89, ../scss/app.scss */
+#museum-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://dailybruin.com/images/2015/11/AYU_0127.jpg");
+  border: 30px solid #fff;
+}
+/* line 95, ../scss/app.scss */
+#museum-1 p {
+  color: #fff;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+/* line 101, ../scss/app.scss */
+#museum-1 h3 {
+  color: #fdf9e0;
+}
+
+/* line 109, ../scss/app.scss */
+#museum-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://dailybruin.com/images/2015/11/AYU_0199.jpg");
+  border: 30px solid #fff;
+}
+/* line 115, ../scss/app.scss */
+#museum-3 p {
+  color: #fff;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+/* line 121, ../scss/app.scss */
+#museum-3 h3 {
+  color: #fff;
+}
+
+/* line 129, ../scss/app.scss */
+#museum-4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("http://dailybruin.com/images/2015/11/AYU_1537.jpg");
+  border: 30px solid #fff;
+}
+/* line 135, ../scss/app.scss */
+#museum-4 p {
+  color: #fff;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+/* line 141, ../scss/app.scss */
+#museum-4 h3 {
+  color: #fff;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+/* line 151, ../scss/app.scss */
+h3 {
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Vollkorn', Helvetica, sans-serif;
+  font-style: italic;
+}
+
+/* line 159, ../scss/app.scss */
+p {
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+/* line 165, ../scss/app.scss */
+.opening {
+  font-size: 24px;
+  width: 95%;
+  padding-top: 10px;
+  font-style: italic;
+  margin: auto;
+  text-align: center;
 }

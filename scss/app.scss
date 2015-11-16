@@ -2,49 +2,20 @@
 @import "foundation";
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
 @import url(https://fonts.googleapis.com/css?family=Vollkorn:700italic);
-// Or selectively include components
-// @import
-//   "foundation/components/accordion",
-//   "foundation/components/alert-boxes",
-//   "foundation/components/block-grid",
-//   "foundation/components/breadcrumbs",
-//   "foundation/components/button-groups",
-//   "foundation/components/buttons",
-//   "foundation/components/clearing",
-//   "foundation/components/dropdown",
-//   "foundation/components/dropdown-buttons",
-//   "foundation/components/flex-video",
-//   "foundation/components/forms",
-//   "foundation/components/grid",
-//   "foundation/components/inline-lists",
-//   "foundation/components/joyride",
-//   "foundation/components/keystrokes",
-//   "foundation/components/labels",
-//   "foundation/components/magellan",
-//   "foundation/components/orbit",
-//   "foundation/components/pagination",
-//   "foundation/components/panels",
-//   "foundation/components/pricing-tables",
-//   "foundation/components/progress-bars",
-//   "foundation/components/reveal",
-//   "foundation/components/side-nav",
-//   "foundation/components/split-buttons",
-//   "foundation/components/sub-nav",
-//   "foundation/components/switches",
-//   "foundation/components/tables",
-//   "foundation/components/tabs",
-//   "foundation/components/thumbs",
-//   "foundation/components/tooltips",
-//   "foundation/components/top-bar",
-//   "foundation/components/type",
-//   "foundation/components/offcanvas",
-//   "foundation/components/visibility";
+
 
 body{
-  background-color:#FAFAFA;
+ // background-color:#FAFAFA;
+
+    background-image: url("../img/green_cup.png");
+}
+
+#explainer{
+  text-align: center;
 }
 
 h1 {
+  background-color: lightgrey;
 	font-size: 36px;
   font-family: 'Questrial', Helvetica, sans-serif;  
   text-align: center;
@@ -52,10 +23,17 @@ h1 {
 
 h2 {
   font-size: 18px;
-  font-family: 'Questrial', Helvetica, sans-serif;  
-  width: 70%;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  width: 85%;
   margin: auto;
+  padding-top:3%;
   padding-bottom:3%;
+}
+
+.top-bar-section{
+  i {
+    font-size: 20px;
+  }
 }
 
 .gallery { list-style: none; padding: 50px; margin: 0; }
@@ -73,13 +51,13 @@ h2 {
 
 #museum-2
 {
-  background-image: linear-gradient(
+ /* background-image: linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
-    ),url("http://dailybruin.com/images/2015/11/Screen-Shot-2015-11-11-at-3.44.40-PM.png"); 
+    ),url("http://dailybruin.com/images/2015/11/Screen-Shot-2015-11-11-at-3.44.40-PM.png"); */
   p
   {
-    color: #fff;
+   // color: #fff;
     padding-left: 100px;
     padding-right: 100px;
   }
@@ -88,39 +66,41 @@ h2 {
 
 #museum-1
 {
-  background-image: linear-gradient(
+ /* background-image: linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
-    ),url("http://dailybruin.com/images/2015/11/AYU_0127.jpg");
+    ),url("http://dailybruin.com/images/2015/11/AYU_0127.jpg");*/
   p
   {
-    color: #fff;
+//    color: #fff;
     padding-left: 100px;
     padding-right: 100px;
   }
   h3
   {
-    color:#fdf9e0;
+  //  color:#fdf9e0;
   }
   border: 30px solid #fff;
 
 }
 
+
 #museum-3
-{
+{ 
+  /*
   background-image: linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
-    ),url("http://dailybruin.com/images/2015/11/AYU_0199.jpg");
+    ),url("http://dailybruin.com/images/2015/11/AYU_0199.jpg");*/
   p
   {
-    color: #fff;
+ //   color: #fff;
     padding-left: 100px;
     padding-right: 100px;
   }
   h3
   {
-    color:#fff;
+   // color:#fff;
   }
   border: 30px solid #fff;
 
@@ -128,19 +108,20 @@ h2 {
 
 #museum-4
 {
+/*
   background-image: linear-gradient(
       rgba(0, 0, 0, 0.1),
       rgba(0, 0, 0, 0.1)
-    ),url("http://dailybruin.com/images/2015/11/AYU_1537.jpg");
+    ),url("http://dailybruin.com/images/2015/11/AYU_1537.jpg");*/
   p
   {
-    color: #fff;
+  //  color: #fff;
     padding-left: 100px;
     padding-right: 100px;
   }
   h3
   {
-    color:#fff;
+    //color:#fff;
     padding-right: 20px;
     padding-left: 20px;
   }
@@ -172,6 +153,11 @@ p{
   text-align: center;
 }
 
+footer{
+  p{
+      font-family: 'Questrial', Helvetica, sans-serif;
+  }  
+}
 
 
 
